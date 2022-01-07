@@ -1,0 +1,64 @@
+body {
+    background-color: white;
+}
+
+fieldset {
+    background-color: lightgrey;
+    width: 185px;
+}
+legend {
+    border-style: dotted;
+    border-width: 1px;
+    border-color: black;
+    background-color: beige;
+}
+
+button[type="reset"] {
+    margin-left: 68px;
+}
+table {
+    margin-top: 40px;
+    background-color: gray;
+    border-collapse: collapse;
+}
+td, th {
+    padding: 4pt;
+    border-color: black;
+    border-style: solid;
+}
+th {}
+
+td {
+    text-align: center;
+}
+
+td.tentatives {
+    font-weight: bold;
+}
+
+td.commentaires {
+    text-align: justify;
+}
+
+#rejouer {
+    margin-top: 30px;
+    width: 400px;
+    height: 50px;
+    background-color: lightgrey;
+}
+
+#divChoix {
+    margin-top: 20px;
+}
+
+em {
+    font-weight: bold;
+    text-decoration: underline;
+    color: red;
+}
+
+p {
+    width: 1000px;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 1.3em;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>MasterMind Entrainement</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/masterMind.js"></script>
+</head>
+<body id="maitresprit">
+<h1>Jouez au MasterMind!</h1>
+<a href="reglesJeu.html" target="_blank">Lien vers les règles du jeu</a><br>
+<div id="divChoix">
+    <form id="formChoix" onsubmit="return jouerAuMastermind();">
+        <fieldset name="choixUser">
+            <legend>Choisissez vos couleurs!</legend>
+            <select name="premiereCouleur" id="couleur1">
+                <option value="bloque" selected disabled>
+                </option>
+                <option value="rouge">
+                    🔴
+                </option>
+                <option value="bleu">
+                    🔵
+                </option>
+                <option value="vert">
+                    🟢
+                </option>
+                <option value="jaune">
+                    🟡
+                </option>
+                <option value="mauve">
+                    🟣
+                </option>
+                <option value="orange">
+                    🟠
+                </option>
+            </select>
+            <select name="deuxiemeCouleur" id="couleur2">
+                <option value="bloque" selected disabled>
+                </option>
+                <option value="rouge">
+                    🔴
+                </option>
+                <option value="bleu">
+                    🔵
+                </option>
+                <option value="vert">
+                    🟢
+                </option>
+                <option value="jaune">
+                    🟡
+                </option>
+                <option value="mauve">
+                    🟣
+                </option>
+                <option value="orange">
+                    🟠
+                </option>
+            </select>
+            <select name="troisiemeCouleur" id="couleur3">
+                <option value="bloque" selected disabled>
+                </option>
+                <option value="rouge">
+                    🔴
+                </option>
+                <option value="bleu">
+                    🔵
+                </option>
+                <option value="vert">
+                    🟢
+                </option>
+                <option value="jaune">
+                    🟡
+                </option>
+                <option value="mauve">
+                    🟣
+                </option>
+                <option value="orange">
+                    🟠
+                </option>
+            </select>
+            <select name="quatriemeCouleur" id="couleur4">
+                <option value="bloque" selected disabled>
+                </option>
+                <option value="rouge">
+                    🔴
+                </option>
+                <option value="bleu">
+                    🔵
+                </option>
+                <option value="vert">
+                    🟢
+                </option>
+                <option value="jaune">
+                    🟡
+                </option>
+                <option value="mauve">
+                    🟣
+                </option>
+                <option value="orange">
+                    🟠
+                </option>
+            </select>
+        </fieldset>
+        <button id="resetChoix" type="reset">Réinitialiser</button>
+        <button id="envoiChoix" type="submit">Valider</button>
+    </form>
+</div>
+<div id="divAffichage">
+    <table id="tableAffichage"></table>
+</div>
+</body>
+</html>
